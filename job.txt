@@ -1,0 +1,10 @@
+# Run Backend:
+cd jobportal-backend
+.\mvnw.cmd spring-boot:run
+
+# Run Frontend:
+cd jobportal-frontend
+npm run dev
+
+# Or double-click:
+run-all.bat

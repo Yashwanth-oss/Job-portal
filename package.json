@@ -1,0 +1,10 @@
+{
+  "name": "jobportal-workspace",
+  "version": "1.0.0",
+  "description": "Full-Stack Job Portal with Spring Boot, React, and MongoDB",
+  "scripts": {
+    "dev": "npm --prefix jobportal-frontend run dev",
+    "build": "npm --prefix jobportal-frontend run build",
+    "backend": "cd jobportal-backend && mvnw.cmd spring-boot:run"
+  }
+}
